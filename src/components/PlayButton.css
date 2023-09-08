@@ -8,6 +8,7 @@ button{
 button:hover{
     background-color: gray;
     color: white;
+    /* background-color: red; */
 }
 
 button.darkMode,.darkMode button{
@@ -20,4 +21,5 @@ button.lightMode, .lightMode button{
     background-color: #333;
     border: 1px solid black;
     color:black ;
+    background-color: #bcb6b6;
 }
