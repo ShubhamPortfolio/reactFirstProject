@@ -1,4 +1,5 @@
 import Image from "./Image";
+import './VideoList.css';
 import PlayButton
  from "./PlayButton";
 import useVideos from "../hooks/Videos";
@@ -37,6 +38,7 @@ function VideoList({editVideo})
 
     return(
         <>
+        <div className="VideolistDiv">
         {images.map((image) => (
             <Image
               key={image.id}
@@ -52,7 +54,7 @@ function VideoList({editVideo})
               {memoButton}
             </Image>
           ))}
-          
+          </div>
           </>
     )
 }

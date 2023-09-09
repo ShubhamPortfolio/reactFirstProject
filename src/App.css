@@ -5,10 +5,20 @@
 
 .darkMode{
   background-color: #333;
-
+  background-color: black;
+  color: white;
 }
 
 .lightMode{
   background-color: #ccc;
+  background-color: whitesmoke;
+}
 
+/* .modeButton{
+  margin: 3%;
+  margin-left: 48%;
+} */
+.modeButton{
+  margin: 3%;
+  margin-left: 48%;
 }

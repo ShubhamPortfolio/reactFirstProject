@@ -45,20 +45,20 @@ function AddVideo({ editableVideo }) {
   },[editableVideo])
 
   return (
-    <form>
+    <form className='Form'>
       <input
       ref={inputRef}
         type="text"
         name="title"
         onChange={handleChange}
-        placeholder="title"
+        placeholder="Title"
         value={video.title}
       />
       <input
         type="text"
         name="views"
         onChange={handleChange}
-        placeholder="views"
+        placeholder="Views"
         value={video.views}
 
       />
